@@ -1,0 +1,40 @@
+.datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.datos h2 {
+    font-family: "Oxygen", sans-serif;
+    font-style: 'Light';
+    font-size: 34px;
+    line-height: 55.01px;   
+    line-height: 128%;
+    text-align: Center;
+    vertical-align: Top;
+}
+
+.datos p {
+    font: var(--headline5);
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 80px;
+}
+
+.testimony h2 {
+    font: var(--headline4);
+}
+
+.testimony p {
+    font:var(--headline5);
+}
